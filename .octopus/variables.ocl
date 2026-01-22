@@ -1,5 +1,7 @@
 variable "prompted" {
     value "value" {
+        environment = ["development"]
+
         prompt {
             description = ""
             display_settings = {
