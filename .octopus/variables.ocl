@@ -1,0 +1,12 @@
+variable "prompted" {
+    value "value" {
+        prompt {
+            description = ""
+            display_settings = {
+                Octopus.ControlType = "Checkbox"
+            }
+            label = ""
+            required = true
+        }
+    }
+}
